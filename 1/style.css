@@ -16,8 +16,8 @@ div:first-of-type h2:nth-last-child(1)
     background-color:var(--color_2);
 }
 span~h2{
-background-color:(--color_3);
+background-color:var(--color_3);
 }
 div~h2{
-    background-color:(--color_4);
+    background-color:var(--color_4);
 }
