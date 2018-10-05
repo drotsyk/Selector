@@ -1,0 +1,18 @@
+a[href="about"] {
+    background-color:#E4F091;
+}
+a[href$=".html"]{
+    background-color:#085F63;
+}
+p:not([class]){
+    background-color:#8AB2FF;
+}
+[data-href]{
+    background-color:#F1C40F;
+}
+a:first-of-type {
+    background-color: #B7569A;
+}
+*[data-href$="  highlight_me"] {
+    text-decoration: underline;
+}

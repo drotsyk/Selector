@@ -1,0 +1,18 @@
+a:visited,a.www{
+    background-color:#E4F091;
+} 
+a:not(www):active{
+    background-color:  #085F63;
+}
+a:hover{
+background-color: #231A31;
+}
+input[type="checkbox"]:checked + label{
+    text-decoration: underline;
+}
+input[type=text]:focus{
+    border: 1px solid blue;
+}
+input:required {
+    background-color: #efefef;
+}

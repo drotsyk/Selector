@@ -1,0 +1,13 @@
+div:first-child >p+p{
+    background-color: #231A31;
+}
+div:first-of-type h2:nth-last-child(1)
+{
+    background-color:#E42F45;
+}
+span~h2{
+background-color:#8AB2FF;
+}
+div~h2{
+    background-color:#F1C40F;
+}
